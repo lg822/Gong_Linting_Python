@@ -4,6 +4,9 @@ Spyder Editor
 
 This is a temporary script file.
 """
+#Overall Comment: Good logic and comments. Since you can complete the task, maybe next point should be the efficiency. Try 
+#different methods, figure out which is more efficient. I have commented with 'Comment:', you may have a look, if any 
+#misunderstanding happened, please feel free to email me.
 """
 Q1.Define a function max() that takes two numbers as arguments and returns 
 the largest of them.Use the if-then-else construct available in Python.
@@ -104,6 +107,7 @@ def translate(text):
           a = a + i
   return  a 
 translate ('this is fun')
+#Comment: This if good, but I just want to reminder that if you need to consider the capital letters.
 
 """
 Q6. Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in a list of
@@ -119,7 +123,7 @@ def sum(numbers):
     return totalSum
      
 sum ([1,2,3,4,5])
-
+#Comment: For the function name, I suggest you do not conflict with the default function of python.
 def multiply(numbers):
 #define a function called multiply 
     total = 1 #intialize totalSum (cannot be zero because of *) 
@@ -200,7 +204,8 @@ def is_member(x,a):
 is_member('a','aaa')
 
 is_member('abc',['abc','dhskde'])
-
+#Comment: Since you already use 'in' as logic judge, you can improve the efficiency by directly use in to judge if it is a 
+#member of the string.
 """
 Q10. Define a function overlapping()that takes two lists and returns True if
 they have at least one member in common, False otherwise. 
