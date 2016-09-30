@@ -4,6 +4,9 @@ Spyder Editor
 
 This is a temporary script file.
 """
+#Your grades are influenced by your format, please refer to the format that Professor G has shown in the lecture. For the content
+#between the """ are the questions you are trying to solve, the input variables and the output you expect. Once you correct
+#them, I am more than happy to give back your mark!
 #Overall Comment: Good logic and comments. Since you can complete the task, maybe next point should be the efficiency. Try 
 #different methods, figure out which is more efficient. I have commented with 'Comment:', you may have a look, if any 
 #misunderstanding happened, please feel free to email me.
