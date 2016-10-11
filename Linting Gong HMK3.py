@@ -4,6 +4,9 @@ Created on Thu Sep 22 19:31:06 2016
 
 @author: lintinggong
 """
+
+#Overall Comment: Try to organize your assignment in clear format. Express the problems your are trying to solve and then
+#                 give detail explanations for the logic and your code.
 import pandas as pd 
 #we need to import panda first in order to use all the functions from the 
 #panda package 
