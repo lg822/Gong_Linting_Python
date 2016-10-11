@@ -4,6 +4,9 @@ Created on Wed Sep 21 21:13:20 2016
 
 @author: lintinggong
 """
+#Overall Commnet: Please refer to professor G's format, once you correct the format, I am more than happy to give back your
+#                 grades. If you have problem with the format, please feel free to email me. For the content, your logic is
+#                 effective and efficient, but there is still some details you need to pay attention.
 '''
 Q1:write a function translate()that takes a list of English words and
 returns a list of Swedish words. 
@@ -33,6 +36,8 @@ def translate(inputText):
 translate("merry christmas and happy new year")
 translate("merry christmas plus happy new year")
 
+#Comment: There are some detail about the space you need to adjust. The output of the first example is ' god jul och gott nytt ar '
+#         so that you can see there are unnecessary space in front and at the end of the string.
 '''
 Q2 "Write a function char_freq() that takes a string and builds a frequency
 listing of the characters contained in it. Represent the frequency listing
@@ -300,20 +305,3 @@ def reducefct(funcreduce, sequencereduce, initial=None):
      
 numbers = [1, 5, 3, 9, 10]
 print(reducefct(lambda x, y: x + y, numbers))
- 
-    
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
